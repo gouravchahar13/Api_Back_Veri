@@ -19,6 +19,6 @@ fake=Faker()
 #     user.cases_names=case
 #     user.case_durations=fake.date_time_between(start_date='2010-01-01', end_date='now')
 #     user.save()
-data=fake.date_time_between(start_date='2010-01-01', end_date='now')
+data=fake.date_time_between(start_date=2010, end_date='now')
      
 print(data)
