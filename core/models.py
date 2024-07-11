@@ -9,7 +9,7 @@ class User(models.Model):
     address=models.CharField(max_length=100,blank=True)
     total_cases=models.IntegerField()
     cases_names=models.CharField(max_length=100)
-
+    address =models.DateField(auto_now_add=True)
     def __str__(self) -> str:
         return self.name
     
